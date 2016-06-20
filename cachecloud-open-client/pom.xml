@@ -21,5 +21,12 @@
         <module>cachecloud-open-jedis-stat</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>17zuoye-nexus-releases</id>
+            <name>Internal Releases</name>
+            <url>http://maven.17zuoye.net/nexus/content/repositories/17zuoye-nexus-releases</url>
+        </repository>
+    </distributionManagement>
 
 </project>
